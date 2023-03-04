@@ -1,0 +1,102 @@
+.main header {
+  width: 90%;
+  max-width: 20rem;
+  border: 2px solid rgb(20, 50, 225);
+  margin: 4rem auto;
+  text-align: center;
+
+  border-radius: 1rem;
+}
+
+.main nav {
+  position: absolute;
+  right: 20px;
+}
+
+
+.main nav button {
+  padding: 10px;
+  font-weight: bold;
+  background-color: rgb(234, 127, 127);
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
+
+.main nav button:hover {
+  background-color: red;
+  color: rgb(248, 241, 241);
+
+}
+
+.action_home button {
+  padding: 10px 5px;
+  font-weight: bold;
+  background-color: #19d43f;
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
+
+.input_Value {
+  margin: 14px
+}
+
+.input_Value input {
+  width: 50%;
+}
+
+.getColorFromFetch {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+
+.getColorFromFetch main {
+  margin: 1rem;
+}
+
+.edit {
+  width: 2rem;
+}
+
+.remove {
+  width: 2rem;
+  float: right;
+}
+
+footer {
+  margin-left: 48%;
+}
+
+.result {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+
+.result span {
+  display: inline-block;
+  position: absolute;
+  left: 8px;
+  width: 16px;
+  background: #100808;
+  animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+
+.result span:nth-child(1) {
+  left: 8px;
+  animation-delay: -0.24s;
+}
+
+.result span:nth-child(2) {
+  left: 32px;
+  animation-delay: 0s;
+}
+
+.result span:nth-child(3) {
+  left: 56px;
+  animation-delay: 0;
+}
